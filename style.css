@@ -336,3 +336,14 @@ div.shadow {
 .texth {
   margin-left: 330px;
 }
+
+.Aboutbody {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutimg {
+  border-radius: 300px;
+  border: 5px solid #000000;
+}
