@@ -98,11 +98,14 @@ body {
   padding-top: 15%;
 }
 .card-body {
-  margin: 200px;
+  padding-top: 200px;
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
 }
 /*project page styling*/
 .animation {
-  padding-top: 20px;
+  padding-top: 150px;
   display: flex;
   justify-content: center;
   z-index: 0;
@@ -117,7 +120,7 @@ body {
   font-size: 100px;
   position: absolute;
   z-index: -3;
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
   transition: 0.25s ease-in-out;
 }
@@ -126,7 +129,7 @@ body {
   font-size: 100px;
   position: absolute;
   z-index: 1;
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
   transition: 0.25s ease-in-out;
   overflow: hidden;
@@ -549,38 +552,41 @@ div.shadow {
 
 .card-buttons {
   display: flex;
+  justify-content: space-between;
+  margin: 5px;
   background-color: #fff;
   margin-top: auto;
   position: sticky;
   bottom: 0;
   left: 0;
+}
 
-  button {
-    flex: 1 1 auto;
-    user-select: none;
-    background: 0;
-    font-size: 13px;
-    border: 0;
-    padding: 15px 5px;
-    cursor: pointer;
-    color: #5c5c6d;
-    transition: 0.3s;
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
-    outline: 0;
-    border-bottom: 3px solid transparent;
+.card-buttons button {
+  flex: 1 1 auto;
+  user-select: none;
+  background: 0;
+  font-size: 13px;
+  border: 0;
+  padding: 15px 5px;
+  cursor: pointer;
+  color: #5c5c6d;
+  transition: 0.3s;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  outline: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 50%; /* Add this line to make the buttons round */
 
-    &.is-active,
-    &:hover {
-      color: #2b2c48;
-      border-bottom: 3px solid #8a84ff;
-      background: linear-gradient(
-        to bottom,
-        rgba(127, 199, 231, 0) 0%,
-        rgba(207, 204, 255, 0.2) 44%,
-        rgba(211, 226, 255, 0.4) 100%
-      );
-    }
+  &.is-active,
+  &:hover {
+    color: #2b2c48;
+    border-bottom: 3px solid #8a84ff;
+    background: linear-gradient(
+      to bottom,
+      rgba(127, 199, 231, 0) 0%,
+      rgba(207, 204, 255, 0.2) 44%,
+      rgba(211, 226, 255, 0.4) 100%
+    );
   }
 }
 
