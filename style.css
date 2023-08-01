@@ -204,6 +204,15 @@ body {
   font-size: 16px;
   padding: 16px 32px;
 }
+
+#byte {
+  color: rgb(255, 171, 3);
+}
+
+#pepetext {
+  color: rgb(6, 192, 6);
+}
+
 #pepe {
   object-fit: cover;
 }
