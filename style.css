@@ -719,3 +719,8 @@ div.shadow {
   font-family: "Jost", sans-serif;
   transition: 0.3s;
 }
+
+.gh {
+  margin-top: 40px;
+  align-self: center;
+}
