@@ -217,6 +217,10 @@ body {
   object-fit: cover;
 }
 
+#wedding {
+  color: #1634ad;
+}
+
 .project-bottom {
   padding-top: 20px;
 }
