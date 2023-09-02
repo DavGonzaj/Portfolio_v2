@@ -42,3 +42,33 @@ buttons.forEach((btn) => {
 
 // navToggleEvent(navElemArr);
 // navToggleEvent(navLinks);
+
+const menuToggle = document.getElementById("menuToggle");
+const menuItems = document.getElementById("menuItems");
+
+menuToggle.addEventListener("click", () => {
+  menuItems.classList.toggle("active");
+});
+
+// Close the mobile menu when a menu item is clicked
+const menuLinks = document.querySelectorAll("#menuItems a");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    menuItems.classList.remove("active");
+  });
+});
+
+// Close the mobile menu when the user clicks outside the menu
+document.addEventListener("click", (e) => {
+  if (!menuItems.contains(e.target) && !menuToggle.contains(e.target)) {
+    menuItems.classList.remove("active");
+  }
+});
+
+// Toggle the mobile menu when the window is resized
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    menuItems.classList.remove("active");
+  }
+});
