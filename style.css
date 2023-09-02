@@ -728,3 +728,11 @@ div.shadow {
   margin-top: 40px;
   align-self: center;
 }
+
+@media (min-width: 677px) {
+  * {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+}
