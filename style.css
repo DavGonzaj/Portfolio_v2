@@ -785,4 +785,11 @@ div.shadow {
     height: auto;
     width: 650px;
   }
+
+  #BOX {
+    object-fit: scale-down;
+    height: 50px;
+    width: 50px;
+  }
+  /* fix the big chunk of space on the right on mobile */
 }
