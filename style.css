@@ -740,6 +740,7 @@ div.shadow {
   /* Mobile Menu Styles */
   .menu-toggle {
     display: block;
+    padding-left: 700px;
     cursor: pointer;
   }
 
