@@ -735,7 +735,6 @@ div.shadow {
     margin: 0;
     scroll-behavior: smooth;
   }
-  /* Add your existing styles for desktop view here */
 
   /* Mobile Menu Styles */
   .menu-toggle {
@@ -776,5 +775,14 @@ div.shadow {
   #menuItems a {
     text-decoration: none;
     color: #333;
+  }
+
+  .project-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-image {
+    height: auto;
+    width: 650px;
   }
 }
