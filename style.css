@@ -736,6 +736,10 @@ div.shadow {
     scroll-behavior: smooth;
   }
 
+  body {
+    margin: auto;
+  }
+
   /* Mobile Menu Styles */
   .menu-toggle {
     display: block;
@@ -786,10 +790,10 @@ div.shadow {
     width: 650px;
   }
 
-  /* #BOX {
+  #BOX {
     object-fit: scale-down;
     height: 50px;
     width: 50px;
-  } */
+  }
   /* fix the big chunk of space on the right on mobile */
 }
