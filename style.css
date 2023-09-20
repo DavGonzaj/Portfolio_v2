@@ -802,4 +802,10 @@ div.shadow {
     width: 300px;
     height: 500px;
   }
+
+  .texth {
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+  }
 }
