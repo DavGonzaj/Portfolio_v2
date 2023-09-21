@@ -342,9 +342,9 @@ div.shadow {
 }
 
 .texth {
-  margin-top: 30px;
-  margin-left: 330px;
-  margin-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20vh;
 }
 
 .Aboutbody {
