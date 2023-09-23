@@ -728,7 +728,9 @@ div.shadow {
   margin-top: 40px;
   align-self: center;
 }
-
+.dinogame {
+  margin: auto;
+}
 @media (max-width: 768px) {
   * {
     padding: 0;
