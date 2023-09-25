@@ -729,7 +729,7 @@ div.shadow {
   align-self: center;
 }
 .dinogame {
-  margin: auto;
+  margin-right: 200px;
 }
 @media (max-width: 768px) {
   * {
