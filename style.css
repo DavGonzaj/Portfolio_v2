@@ -812,4 +812,7 @@ div.shadow {
     padding-bottom: 40px;
     text-align: center;
   }
+  .gifs {
+    width: 200px;
+  }
 }
