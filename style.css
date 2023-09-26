@@ -148,6 +148,10 @@ body {
   padding-top: 100px;
 }
 
+.gifs {
+  width: 1000px;
+}
+
 .project-website {
   display: flex;
   justify-content: center;
