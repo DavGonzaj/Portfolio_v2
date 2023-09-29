@@ -811,6 +811,8 @@ div.shadow {
     margin: auto;
     padding-bottom: 40px;
     text-align: center;
+
+    /* gifs section for mobile view */
   }
   .gifs {
     width: 200px;
