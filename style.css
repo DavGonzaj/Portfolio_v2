@@ -815,6 +815,7 @@ div.shadow {
     /* gifs section for mobile view */
   }
   .gifs {
-    width: 200px;
+    /* width: 200px; */
+    width: auto;
   }
 }
