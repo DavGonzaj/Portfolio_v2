@@ -819,3 +819,7 @@ div.shadow {
     width: auto;
   }
 }
+
+/* mobile view  */
+@media (max-width: 800px) {
+}
