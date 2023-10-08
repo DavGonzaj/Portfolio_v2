@@ -819,3 +819,5 @@ div.shadow {
     width: auto;
   }
 }
+@media (max-width: 768px) {
+}
