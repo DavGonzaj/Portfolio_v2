@@ -733,7 +733,8 @@ div.shadow {
   align-self: center;
 }
 
-@media (max-width: 768px) {
+/* Iphone SE query  */
+@media (min-width: 290px) {
   * {
     padding: 0;
     margin: 0;
@@ -747,7 +748,7 @@ div.shadow {
   /* Mobile Menu Styles */
   .menu-toggle {
     display: block;
-    padding-left: 700px;
+    padding-left: 485px;
     cursor: pointer;
   }
 
@@ -784,7 +785,13 @@ div.shadow {
     text-decoration: none;
     color: #333;
   }
-
+  .center {
+    padding-left: 140px;
+  }
+  .socialsContainer {
+    align-content: center;
+    padding-left: 140px;
+  }
   .project-container {
     display: flex;
     align-items: center;
