@@ -806,6 +806,7 @@ div.shadow {
     height: 50px;
     width: 50px;
   }
+
   /* fix the big chunk of space on the right on mobile */
   .card-body {
     padding-top: 200px;
