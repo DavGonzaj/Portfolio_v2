@@ -735,6 +735,7 @@ div.shadow {
 
 /* Iphone SE query  */
 @media (min-width: 290px) {
+  /*bug is in here? */
   * {
     padding: 0;
     margin: 0;
